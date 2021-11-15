@@ -27,7 +27,8 @@
       ]
     },
     "categoria": {
-      "model": "categorias"
+      "model": "categorias",
+      "via": "tickets"
     },
     "user": {
       "plugin": "users-permissions",

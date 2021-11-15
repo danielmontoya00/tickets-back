@@ -7,18 +7,19 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "gcp-build": "strapi build"
   },
-  "devDependencies": {},
   "dependencies": {
     "knex": "^0.95.11",
-    "mysql": "2.18.1",
+    "mysql": "^2.18.1",
     "strapi": "3.6.8",
     "strapi-admin": "3.6.8",
     "strapi-connector-bookshelf": "3.6.8",
     "strapi-plugin-content-manager": "3.6.8",
     "strapi-plugin-content-type-builder": "3.6.8",
     "strapi-plugin-email": "3.6.8",
+    "strapi-plugin-entity-relationship-chart": "^3.1.0",
     "strapi-plugin-i18n": "3.6.8",
     "strapi-plugin-upload": "3.6.8",
     "strapi-plugin-users-permissions": "3.6.8",
@@ -32,7 +33,7 @@
     "uuid": "8dfea30d-19a2-45ed-8e66-3d7b0a8048b2"
   },
   "engines": {
-    "node": ">=10.16.0 <=14.x.x",
+    "node": "14.x.x",
     "npm": "^6.0.0"
   },
   "license": "MIT"

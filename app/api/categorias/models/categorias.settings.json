@@ -18,6 +18,10 @@
     },
     "descripcion": {
       "type": "text"
+    },
+    "tickets": {
+      "via": "categoria",
+      "collection": "tickets"
     }
   }
 }
